@@ -1,12 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Welcome to My Web Page</h1>
-    <p>This is a basic HTML page.</p>
+    <div id="container">
+        <header>
+            <h1>My Personalized Site</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#interests">Interests</a>
+                <a href="#images">Images</a>
+            </nav>
+        </header>
+    </div>
+
+    <p id="p1">This is a basic web page I built using HTML and CSS.</p>
+    <p id="p1">This is version one so I will work on improving it more at a later date.</p>
+
+    <div id="sea">
+        <section id="about">
+            <h2 id="cont">About Me</h2>
+            <p id="p1">Hello Everyone and welcome to my site. My name is Israel, a 17 year old and I created this site
+                as a sort of testing ground for my newly acquired website design skills.</p>
+            <p id="p1">As you can probably see, this site looks very "beginner" especially cause of the color mixing,
+                but hey, we got to start sonewhere right?</p>
+        </section>
+    </div>
+
+    <div id="desert">
+        <section id="projects">
+            <h2 id="cont1">Projects</h2>
+            <p id="p1">At the moment I havent worked on a lot of projects for stardance, but one of the ones I made is;
+            <div class="flex"><span><img src="images/langubot.png" alt="langubot" width="150px" height="150px"></span>
+                <span>
+                    <p>A slack bot built using javascript. It takes a predetermined command, called a slash command and
+                        returns a certain response based on the command given. <a
+                            href="https://github.com/IsraelAdedeji/Slack-Bot">Github</a></p>
+                </span>
+            </div>
+            <div class="flex"><span><img src="images/BUTTERFLY PCB.png" alt="pcb" width="150px" height="150px"></span>
+                <span>
+                    <p>My first original PCB, although for a different YSWS, its still not complete and since the other
+                        event has ended, Im going to complete it here. <a
+                            href="https://github.com/IsraelAdedeji/Blinky-Board">Github</a></p>
+                </span>
+            </div>
+            <p id="p1">As well as other projects mostly still in the build stage. Check them all out <a
+                    href="https://github.com/IsraelAdedeji">here</a></p>
+        </section>
+    </div>
+
+    <div id="space">
+        <section id="interests">
+            <h2 id="cont2">Interests</h2>
+            <p id="p1">Im very much interested a lot of things. And when I say a lot, I mean a lot.</p>
+            <p id="p1">If I was being completely honest, pretty much everything about most branches of science, human
+                ingenuity, engineering, space exploration, and a whole lot more. Heres just a few;</p>
+            <ul>
+                <li>Programming</li>
+                <li>Hardware thinkering</li>
+                <li>Human Biology</li>
+                <li>Nuclear Energy</li>
+                <li>Astronomy</li>
+                <li>Space Exploration</li>
+                <li>Rockects</li>
+                <li>Fighter Jets</li>
+                <li>Marine Biology</li>
+            </ul>
+            <ul>
+                <li>Olympic Sports like swimming, track events, skiing, etc</li>
+                <li>Deep Sea Exploration</li>
+                <li>Feats of Human Engineering</li>
+                <li>Puzzles</li>
+                <li>Chess</li>
+                <li>Reading books</li>
+                <li>Sleeping (hehe)</li>
+                <li>Solving Problems</li>
+                <li>Art (drawing and painting)</li>
+            </ul>
+            <ul>
+                <li>Gaming</li>
+                <li>Avaiation in General</li>
+                <li>Dinosaurs and prehistoric Earth</li>
+                <li>Food ;)</li>
+                <li>Anime</li>
+                <li>Chemical Reactions</li>
+                <li>Physics Applications</li>
+                <li>Fishing</li>
+                <li>Geology</li>
+            </ul>
+        </section>
+    </div>
+
+    <section id="images">
+        <div id="container1">
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX14V98yTcJAvsoXgHhgtaEETI0ZF79c_XbviZBLRs8A&s=10"
+                    alt="Rocket:3">
+            </span><span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2EkmU8GtcyfYUmVJ5ThNmHYCgWKC4rnRs0YJl-1tzSA&s"
+                    alt="F22 Raptor:3"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpBRPHz4vX0Xp0gb-WbCAY1bc-wNNafP7pBvi-4GSMqw&s=10"
+                    alt="Rock Collection"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ53-Q55dn90HvELkQ9oW4l40oWN-FJlmIcsr5LCDlX6Q&s=10"
+                    alt="Coral Reef"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXxlv2h2qm6rl_wpmvaVRlK90n3wNHeAk5DelE8TDFxg&s=10"
+                    alt="Programming"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJQlkF0ipi7N9zWnmqfJgEHyWPjf9ZPvC5BvxlJ8oZvw&s=10"
+                    alt="fishing"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxL2qA4rHSYyyeGfemPeoLT1jvSVlATWhXTMkIw43iww&s=10"
+                    alt="Chess"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ19B2j7_exVy3o4b53tFUImHgguXZEEcFhaN0MfHCITA&s=10"
+                    alt="Rubiks cube"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSjhvYqd00ITztqMCtONlIiYTqQvFl2TRqsoJvJXD0ZQ&s=10"
+                    alt="chemistry"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmIMEKUGeEF-cvVuHrEZe_j86oYTSy8FWrVhr7mMdQEQ&s=10"
+                    alt="Food"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSddIE6fQuHz0rbqRHuYeivQHEhA45JTvhDclvspsJdg&s=10"
+                    alt="Sleep"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYxQu1nkj1cBImY7_bJ8nZ7QvkIbKRXeX84yzpAYVbsQ&s=10"
+                    alt="Nuclear Plant"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRdCREZ1dWSdXxkiUouoKhx9MjY0jnMU5fZqD0L_Uudg&s=10"
+                    alt="Physics"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu2L488W1en5jQiM5Hc0XqnfAgx1n2LRdTRYR558gGZA&s=10"
+                    alt="Jurassic"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJpg8QVas3Voo8bIlMyHJxe0br56fMqyVgsASNWGfGlw&s=10"
+                    alt="Aviation"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh455Vv0MMMM5nHYKjCD86Nl0zAduWC6oaH0n8cVRz1A&s=10"
+                    alt="Gaming"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQczwY3n_BniB9VP375DbI58RfvVufQJ9_4d2a5OQRJhQ&s=10"
+                    alt="Art"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjCUh1dk6bQDifawjUuji3eCyYZOlzoWV4ENB9iuPoAw&s=10"
+                    alt="Problem Solving"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMUDjp494B1o04LwFYt94jzF4FFokcdJ32CShRITRT2w&s=10"
+                    alt="Reading"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNxDgpU8duNT-BQuPzL-DFIsiQks76Z1XWX423wFCZLg&s=10"
+                    alt="Engineering"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBRQijvnKs2NOL8PBepXC0dALoN0ZAFFNHjAlvNCo53g&s=10"
+                    alt="Skiing"></span>
+            <span><img id="first"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd2-TOKjPmAMjrSbSKCikChVaitraZR-bEodQuIsVIcA&s=10"
+                    alt="Astronomy"></span>
+        </div>
+    </section>
+
+    <section>
+        
+    </section>
+
 </body>
+
 </html>
